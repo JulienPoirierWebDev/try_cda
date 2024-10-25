@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+   
+}
+
+/*--------------Header---------------------*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    background-image: linear-gradient(to left, hsl(353, 100%, 62%),hsl(13, 100%, 72%) );
+   
+    
+}
+.navbar{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 1rem;
+    
+    
+}
+.navbar ul li{
+    list-style: none;
+    
+    
+}
+.navbar ul li a{
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    gap: 5px;
+}
+.cx {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.cx a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.cx .sign-up{
+    background-color: #fff;
+    padding: 3px 15px;
+    border-radius: 20px;
+    color: #fd6360;
+}
+/*--------------Section 01---------------------*/
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: linear-gradient(to left, hsl(353, 100%, 62%),hsl(13, 100%, 72%) );
+    border-radius: 0px 0px 0px 100px ;
+   
+}
+.un {
+    text-align: center;
+}
+.un .title {
+    font-size: 3rem;
+    color:#fff;
+    margin-bottom: 24px;
+    z-index: 2;
+    position: relative;
+}
+.para {
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+.deux {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 2;
+    position: relative;
+}
+.cx ion-icon {
+    display: none;
+}
+.deux a{
+    margin-top: 40px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 3px 15px;
+
+}
+.deux .start{
+    text-decoration: none;
+    background-color: #fff;
+    color: #fd6360;
+    padding: 3px 15px;
+    border-radius: 20px;
+}
+.fond{
+    position: absolute;
+    height: 100px;
+}
+.fond {
+    height: 100%;
+
+}
+@media screen and (width <  900px) {
+    .cx a, .sign-up, .navbar nav {
+        display: none;
+    }
+    .cx ion-icon {
+        display: block;
+        font-size: 60px;
+        color: #fff;
+    }
+    .un .title {
+        padding:0 25px;
+        
+    }
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/*---------------------------
+|       ROOT PARAMETER      | 
+---------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*---------------------------
+|         SECTION 4         | 
+---------------------------*/
+
+
+/* ========== CONTAINER IMAGE ========== */
+
+.container_section4 {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.container_section4 .image_container {
+    width: 40%;
+}
+
+.container_section4 .image_container img {
+    width: 700px;
+    display: flex;
+    position: relative;
+    right: 200px;
+}
+
+
+.container_section4 .text_container {
+    width: 50%;
+}
+
+
+
+/* ========== CONTAINER TEXT ========== */
+
+
+.container_section4 .text_container {
+    width: 60%;
+    height: auto;
+    padding-right: 70px;
+    /* border: 1px solid red; */
+}
+
+.container_section4 .text_container h3 {
+    color: rgb(23, 23, 132);
+    margin-bottom: 15px;
+}
+
+
+.container_section4 .text_container .bloc_text_1 {
+    margin-top: 15%;
+}
+
+
+.container_section4 .text_container .bloc_text_2 {
+    margin-top: 13%;
+}
+
+
+.container_section4 .text_container p {
+    width: 100%;
+    color: rgb(69, 69, 69);
+    font-size: 15px;
+}

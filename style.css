@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.section2 h1 {
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+
+.section2 .mobile {
+	display: none;
+}
+
+.section2 .paragraph-container {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	justify-content: space-evenly;
+	padding: 5vw;
+	gap: 50px;
+}
+
+.section2 > div {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.section2 .image-container {
+	width: 35vw;
+	overflow: hidden;
+}
+
+.section2 .desktop {
+	width: 50vw;
+}
+
+.section2 .paragraph h2 {
+	margin-bottom: 15px;
+}
+/* --------- SECTION  -----------3*/
+
+.conteneur {
+	background-image: url('./public/images/bg-pattern-circles.svg');
+	background-color: rgb(1, 1, 59);
+	background-position: absolute;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-radius: 0% 25% 0% 25%;
+}
+.element_a {
+	width: 50%;
+}
+.section3 {
+	background-color: rgb(2, 2, 53);
+	border-radius: 0% 25% 0% 25%;
+	background-image: url('./public/images/bg-pattern-circles.svg');
+	background-position: absolute;
+}
+.element_a {
+	color: aliceblue;
+}
